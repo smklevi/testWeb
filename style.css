@@ -40,10 +40,15 @@ header {
     transition: all .5s;
 }
 
+.active {
+    color: orangered;
+}
+
 .content {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: calc(100vh - 150px);
 }
 
 .content .content-left {
@@ -54,17 +59,17 @@ img {
     max-width: 100%;
 }
 
-.nasserh1 {
+.nameh1 {
     text-transform: uppercase;
     color: orange;
 }
 
-.nasserh2 {
+.nameh2 {
     text-transform: uppercase;
     letter-spacing: 3px;
     color: orangered;
 }
 
-.nasserquote {
+.quote {
     font-style: italic;
 }
