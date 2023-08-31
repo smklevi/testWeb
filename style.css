@@ -73,3 +73,9 @@ img {
 .quote {
     font-style: italic;
 }
+
+.content-wp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
